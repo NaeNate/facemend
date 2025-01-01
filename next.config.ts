@@ -1,14 +1,5 @@
 import { NextConfig } from "next"
 
-const config: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        hostname: "cdn.shopify.com",
-        protocol: "https",
-      },
-    ],
-  },
-}
+const config: NextConfig = {}
 
 export default config
